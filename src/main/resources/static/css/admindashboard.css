@@ -1,0 +1,106 @@
+/* General Body Styling */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Header and Footer Styling */
+header {
+    font-size: 1.5rem;
+    background-color: #343a40;
+    color: white;
+}
+
+footer {
+    font-size: 0.9rem;
+    background-color: #343a40;
+    color: white;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table th, table td {
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+table th {
+    background-color: #343a40;
+    color: white;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Buttons Styling */
+.btn-info {
+    background-color: #17a2b8; /* Light blue */
+    border-color: #117a8b;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #0d5a66;
+}
+
+.btn-dark {
+    background-color: #495057; /* Dark gray */
+    border-color: #343a40;
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: #343a40;
+    border-color: #212529;
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red */
+    border-color: #c82333;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #bd2130;
+    border-color: #a71d2a;
+}
+
+.btn-logout {
+    background-color: #6c757d; /* Medium gray */
+    border-color: #495057;
+    color: white;
+    width: 200px;
+}
+
+.btn-logout:hover {
+    background-color: #5a6268;
+    border-color: #343a40;
+}
+
+/* Responsive Table */
+.table-responsive {
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.card {
+    overflow-y: auto;
+    max-height: 90vh;
+}

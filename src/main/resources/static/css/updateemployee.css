@@ -1,0 +1,81 @@
+/* General Body Styling */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Header and Footer Styling */
+header {
+    font-size: 1.5rem;
+    background-color: #343a40;
+    color: white;
+}
+
+footer {
+    font-size: 0.9rem;
+    background-color: #343a40;
+    color: white;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Label Styling */
+form label {
+    font-weight: 600;
+}
+
+/* Update Button Styling */
+form .btn-info {
+    background-color: #17a2b8; /* Light blue */
+    border-color: #117a8b;
+    color: white;
+}
+
+form .btn-info:hover {
+    background-color: #138496; /* Slightly darker blue on hover */
+    border-color: #0d5a66;
+}
+
+/* Clear Button Styling (to match Registration Clear button) */
+form .btn-secondary {
+    background-color: #6c757d; /* Medium gray */
+    border-color: #495057;
+    color: white;
+}
+
+form .btn-secondary:hover {
+    background-color: #495057; /* Darker gray on hover */
+    border-color: #343a40;
+}
+
+/* Logout Button Styling (Matching Admin Dashboard) */
+.btn-dark {
+    background-color: #6c757d; /* Same color as in Admin Dashboard */
+    border-color: #495057;
+    color: white;
+    width: 200px; /* Width to match the Admin Dashboard */
+}
+
+.btn-dark:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+    border-color: #343a40;
+}
+
+/* Fix overlapping issue */
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.py-4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card {
+    overflow-y: auto;
+    max-height: 90vh;
+}

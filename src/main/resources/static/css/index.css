@@ -1,0 +1,62 @@
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+header {
+    font-size: 1.5rem;
+    background-color: #343a40; /* Dark gray header */
+    color: white;
+}
+
+footer {
+    font-size: 0.9rem;
+    background-color: #343a40; /* Dark gray footer */
+    color: white;
+}
+
+.card {
+    border-radius: 12px;
+    background-color: #ffffff; /* White card background */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: 600;
+}
+
+/* Login Button */
+form .btn-success {
+    background-color: #17a2b8; /* Light blue for login button */
+    border: none;
+    color: white;
+}
+
+form .btn-success:hover {
+    background-color: #138496; /* Slightly darker blue on hover */
+    opacity: 0.9;
+}
+
+/* New User Button */
+form .btn-secondary {
+    background-color: #495057; /* Dark gray for new user button */
+    border: none;
+    color: white;
+}
+
+form .btn-secondary:hover {
+    background-color: #343a40; /* Darker gray on hover */
+    opacity: 0.9;
+}
+
+form .text-muted:hover {
+    color: #17a2b8; /* Light blue color for hover effect on "Forgot Password?" */
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.card {
+    overflow-y: auto;
+    max-height: 90vh;
+}

@@ -1,0 +1,38 @@
+/* Update Button Styling */
+.btn-info {
+    background-color: #17a2b8; /* Light blue */
+    border-color: #117a8b;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #138496; /* Slightly darker blue */
+    border-color: #0d5a66;
+}
+
+/* Delete Button Styling */
+.btn-dark {
+    background-color: #495057; /* Dark gray */
+    border-color: #343a40;
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: #343a40; /* Darker gray */
+    border-color: #212529;
+}
+
+/* Logout Button Styling */
+.btn-secondary {
+    background-color: #6c757d; /* Gray background */
+    border-color: #495057;
+    color: white;
+    width: auto;
+    padding: 8px 20px;
+    font-size: 1rem;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Slightly darker gray */
+    border-color: #343a40;
+}
